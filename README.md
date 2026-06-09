@@ -95,7 +95,7 @@ python manage.py runserver
 | GET / PUT / PATCH | `/api/me/profile/` | Consulter / modifier son profil |
 | GET / POST | `/api/me/experiences/` | Lister / ajouter ses expériences |
 | GET / PUT / PATCH / DELETE | `/api/me/experiences/{id}/` | Détail / modifier / supprimer une expérience |
-| GET / PUT / PATCH / DELETE | `/api/me/skills/{id}/` | Détail / modifier / supprimer une compétence |
+
 
 ### Recruteur (nécessite un token avec rôle RECRUITER)
 
